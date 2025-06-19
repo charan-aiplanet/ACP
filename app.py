@@ -1459,8 +1459,8 @@ def submit_claim_interface():
                     
                     # More lenient validation - if not valid, show warning but allow demo submission
                     if not policy_validation['is_valid'] and policy_validation.get('reasons'):
-                        st.warning(f"⚠️ **Policy Validation Issues:** {'; '.join(policy_validation['reasons'])}")
-                        st.info("**Demo Mode:** Proceeding with claim submission for demonstration purposes")
+                        #st.warning(f"⚠️ **Policy Validation Issues:** {'; '.join(policy_validation['reasons'])}")
+                        #st.info("**Demo Mode:** Proceeding with claim submission for demonstration purposes")
                         
                         # Override validation for demo purposes
                         policy_validation = {
