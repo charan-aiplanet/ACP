@@ -1130,7 +1130,7 @@ def setup_api_configuration():
     
     if env_api_key and not st.session_state.groq_api_key:
         st.session_state.groq_api_key = env_api_key
-        st.sidebar.success("✅ API Key loaded from environment")
+        #st.sidebar.success("✅ API Key loaded from environment")
     
     if st.session_state.groq_api_key:
         st.sidebar.markdown('<p class="api-status-connected">🟢 Connected</p>', unsafe_allow_html=True)
