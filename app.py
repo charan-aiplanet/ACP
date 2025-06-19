@@ -1133,7 +1133,7 @@ def setup_api_configuration():
         #st.sidebar.success("✅ API Key loaded from environment")
     
     if st.session_state.groq_api_key:
-        st.sidebar.markdown('<p class="api-status-connected">🟢 Connected</p>', unsafe_allow_html=True)
+        st.sidebar.markdown('<p class="api-status-connected">🟢 Agents - Active</p>', unsafe_allow_html=True)
         return True
     else:
         st.sidebar.markdown('<p class="api-status-disconnected">🔴 API Not Connected</p>', unsafe_allow_html=True)
