@@ -14,7 +14,7 @@ groq>=0.4.0
 
 # Image Processing and OCR
 Pillow>=9.5.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 pytesseract>=0.3.10
 
 # Utility Libraries
